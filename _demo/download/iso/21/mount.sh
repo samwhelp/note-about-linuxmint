@@ -5,10 +5,10 @@ prepare_mount_dir () {
 }
 
 mount_iso () {
-	mount_xubuntu
+	mount_cinnamon
 }
 
-mount_xubuntu () {
+mount_cinnamon () {
 	sudo mount -o loop linuxmint-21-cinnamon-64bit.iso mnt
 }
 
