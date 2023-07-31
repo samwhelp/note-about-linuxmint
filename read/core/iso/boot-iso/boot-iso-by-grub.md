@@ -41,12 +41,49 @@ sudo curl -fLo /opt/iso/linuxmint/21.2/linuxmint-21.2-cinnamon-64bit.iso --creat
 > 關於「`sudo update-grub`」指的是「`sudo grub-mkconfig -o /boot/grub/grub.cfg`」
 
 
-## GRUB Menu Entry / Boot ISO 樣板 / Debian
+## GRUB Menu Entry / Boot ISO 樣板 / Linux Mint
 
 ``` sh
 menuentry "Linux Mint 21.2 Victoria / Cinnamon" --class LinuxMint {
 	set gfxpayload=keep
 	set iso_file="/opt/iso/linuxmint/21.2/linuxmint-21.2-cinnamon-64bit.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="locale=zh_TW"
+	#set boot_option="quiet splash"
+	#set boot_option="file=/cdrom/preseed/linuxmint.seed ---"
+	linux (loop)/casper/vmlinuz iso-scan/filename=$iso_file boot=casper $boot_option
+	initrd (loop)/casper/initrd.lz
+}
+
+```
+
+
+``` sh
+menuentry "Linux Mint 21.2 Victoria / Mate" --class LinuxMint {
+	set gfxpayload=keep
+	set iso_file="/opt/iso/linuxmint/21.2/linuxmint-21.2-mate-64bit.iso"
+	search --set=iso_partition --no-floppy --file $iso_file
+	probe --set=iso_partition_uuid --fs-uuid $iso_partition
+	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
+	loopback loop ($iso_partition)$iso_file
+	set boot_option=""
+	#set boot_option="locale=zh_TW"
+	#set boot_option="quiet splash"
+	#set boot_option="file=/cdrom/preseed/linuxmint.seed ---"
+	linux (loop)/casper/vmlinuz iso-scan/filename=$iso_file boot=casper $boot_option
+	initrd (loop)/casper/initrd.lz
+}
+```
+
+
+``` sh
+menuentry "Linux Mint 21.2 Victoria / Xfce" --class LinuxMint {
+	set gfxpayload=keep
+	set iso_file="/opt/iso/linuxmint/21.2/linuxmint-21.2-xfce-64bit.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
