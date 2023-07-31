@@ -12,7 +12,6 @@ parent: ISO
 ## Linux Mint 21.2 "Victoria"
 
 | Edition | Download | New Features | Release notes |
-
 | --- | --- | --- | --- |
 | Cinnamon Edition | [Download](https://www.linuxmint.com/edition.php?id=305) | [New Features](https://www.linuxmint.com/rel_victoria_cinnamon_whatsnew.php) | [Release notes](https://www.linuxmint.com/rel_victoria_cinnamon.php) |
 | MATE Edition | [Download](https://www.linuxmint.com/edition.php?id=306) | [New Features](https://www.linuxmint.com/rel_victoria_mate_whatsnew.php) | [Release notes](https://www.linuxmint.com/rel_victoria_mate.php) |
