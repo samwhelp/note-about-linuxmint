@@ -10,6 +10,7 @@
 ## 主題
 
 * [ISO](#iso)
+* [桌面環境](#桌面環境)
 * [相關筆記](#相關筆記)
 
 
@@ -29,6 +30,15 @@
 | [Boot ISO By USB](https://samwhelp.github.io/note-about-linuxmint/read/core/iso/boot-iso/boot-iso-by-usb.html) |
 | [Boot ISO By Ventoy](https://samwhelp.github.io/note-about-linuxmint/read/core/iso/boot-iso/boot-iso-by-ventoy.html) |
 | [Boot ISO By GRUB](https://samwhelp.github.io/note-about-linuxmint/read/core/iso/boot-iso/boot-iso-by-grub.html) |
+
+
+## 桌面環境
+
+| 桌面環境 |
+| --- |
+| [Xfce](https://samwhelp.github.io/note-about-linuxmint/read/master/desktop-environment/xfce.html) |
+| Mate |
+| Cinnamon |
 
 
 ## 相關筆記
