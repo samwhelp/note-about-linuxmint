@@ -37,8 +37,6 @@ parent: ISO
 先產生一個檔案「iso-download.txt」，內容如下
 
 ```
-http://free.nchc.org.tw/linuxmint/isos/stable/21.2/sha256sum.txt
-http://free.nchc.org.tw/linuxmint/isos/stable/21.2/sha256sum.txt.gpg
 http://free.nchc.org.tw/linuxmint/isos/stable/21.2/linuxmint-21.2-cinnamon-64bit.iso
 http://free.nchc.org.tw/linuxmint/isos/stable/21.2/linuxmint-21.2-mate-64bit.iso
 http://free.nchc.org.tw/linuxmint/isos/stable/21.2/linuxmint-21.2-xfce-64bit.iso
@@ -64,3 +62,24 @@ wget -c -i iso-download.txt
 
 
 ## 驗證
+
+
+### sha256sum
+
+* [man sha256sum](https://manpages.ubuntu.com/manpages/jammy/man1/sha256sum.1.html)
+
+執行
+
+``` sh
+wget -c http://free.nchc.org.tw/linuxmint/isos/stable/21.2/sha256sum.txt
+
+sha256sum -c sha256sum.txt
+```
+
+會看到類似如下的內容
+
+```
+linuxmint-21.2-cinnamon-64bit.iso: OK
+linuxmint-21.2-mate-64bit.iso: OK
+linuxmint-21.2-xfce-64bit.iso: OK
+```
