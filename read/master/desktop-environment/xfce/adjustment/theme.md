@@ -18,7 +18,7 @@ grand_parent: 桌面環境
 ## Style
 
 * Xfce / Docs / [Xfconf-query](https://docs.xfce.org/xfce/xfconf/xfconf-query)
-* man [xfconf-query](https://manpages.debian.org/testing/xfconf/xfconf-query.1.en.html)
+* man [xfconf-query](https://manpages.ubuntu.com/manpages/jammy/en/man1/xfconf-query.1.html)
 
 ## RGapsBlendNoButtons Gruvbox
 
@@ -27,7 +27,7 @@ grand_parent: 桌面環境
 | xfwm-theme | [RGapsBlendNoButtons](#config-xfwm-theme-rgapsblendnobuttons) | [~/.themes/RGapsBlendNoButtons](https://github.com/samwhelp/rgaps-theme-collection/tree/rgaps-blend-nobuttons) |
 | gtk-theme | [Gruvbox](#config-gtk-theme-gruvbox) | [~/.themes/Gruvbox](https://github.com/samwhelp/gruvbox-theme-collection/tree/gtk-theme-gruvbox) |
 | icon-theme | [Gruvbox-Dark](#config-icon-theme-gruvbox-dark) | [~/.icons/Gruvbox-Dark](https://github.com/samwhelp/gruvbox-theme-collection/tree/icon-theme-gruvbox-dark) |
-| cursor-theme | [breeze_cursors](#config-cursor-theme-breeze_cursors) | [/usr/share/icons/breeze_cursors](https://packages.debian.org/sid/all/breeze-cursor-theme/filelist) |
+| cursor-theme | [breeze_cursors](#config-cursor-theme-breeze_cursors) | [/usr/share/icons/breeze_cursors](https://packages.ubuntu.com/jammy/all/breeze-cursor-theme/filelist) |
 
 
 ### config-xfwm-theme-RGapsBlendNoButtons
