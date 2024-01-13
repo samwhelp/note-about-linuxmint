@@ -12,7 +12,7 @@ grand_parent: ISO
 
 ## 範例專案
 
-* boot-iso-by-grub / [demo-boot-linuxmint-21.2-iso](https://github.com/samwhelp/linuxmint-adjustment/tree/main/core/iso/boot-iso/boot-iso-by-grub/demo-boot-linuxmint-21.2-iso)
+* boot-iso-by-grub / [demo-boot-linuxmint-21.3-iso](https://github.com/samwhelp/linuxmint-adjustment/tree/main/core/iso/boot-iso/boot-iso-by-grub/demo-boot-linuxmint-21.3-iso)
 
 
 ## 下載 ISO
@@ -24,8 +24,8 @@ grand_parent: ISO
 舉例執行下面指令
 
 ``` sh
-sudo curl -fLo /opt/iso/linuxmint/21.2/linuxmint-21.2-cinnamon-64bit.iso --create-dirs \
-	http://free.nchc.org.tw/linuxmint/isos/stable/21.2/linuxmint-21.2-cinnamon-64bit.iso
+sudo curl -fLo /opt/iso/linuxmint/21.3/linuxmint-21.3-cinnamon-64bit.iso --create-dirs \
+	http://free.nchc.org.tw/linuxmint/isos/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso
 ```
 
 
@@ -35,8 +35,8 @@ sudo curl -fLo /opt/iso/linuxmint/21.2/linuxmint-21.2-cinnamon-64bit.iso --creat
 
 | GRUB Boot ISO 範例 | 設定檔路徑 | 是否需要執行 update-grub |
 | --- | --- | --- |
-| demo_40_custom | [/etc/grub.d/40_custom](https://github.com/samwhelp/linuxmint-adjustment/blob/main/core/iso/boot-iso/boot-iso-by-grub/demo-boot-linuxmint-21.2-iso/asset/overlay/etc/grub.d/40_custom) | 修改後，需要執行 `sudo update-grub` |
-| demo_41_custom | [/boot/grub/custom.cfg](https://github.com/samwhelp/linuxmint-adjustment/blob/main/core/iso/boot-iso/boot-iso-by-grub/demo-boot-linuxmint-21.2-iso/asset/overlay/boot/grub/custom.cfg) | 修改後，**不需要**執行 `sudo update-grub` |
+| demo_40_custom | [/etc/grub.d/40_custom](https://github.com/samwhelp/linuxmint-adjustment/blob/main/core/iso/boot-iso/boot-iso-by-grub/demo-boot-linuxmint-21.3-iso/asset/overlay/etc/grub.d/40_custom) | 修改後，需要執行 `sudo update-grub` |
+| demo_41_custom | [/boot/grub/custom.cfg](https://github.com/samwhelp/linuxmint-adjustment/blob/main/core/iso/boot-iso/boot-iso-by-grub/demo-boot-linuxmint-21.3-iso/asset/overlay/boot/grub/custom.cfg) | 修改後，**不需要**執行 `sudo update-grub` |
 
 > 關於「`sudo update-grub`」指的是「`sudo grub-mkconfig -o /boot/grub/grub.cfg`」
 
@@ -44,9 +44,9 @@ sudo curl -fLo /opt/iso/linuxmint/21.2/linuxmint-21.2-cinnamon-64bit.iso --creat
 ## GRUB Menu Entry / Boot ISO 樣板 / Linux Mint
 
 ``` sh
-menuentry "Linux Mint 21.2 Victoria / Cinnamon" --class LinuxMint {
+menuentry "Linux Mint 21.3 Virginia / Cinnamon" --class LinuxMint {
 	set gfxpayload=keep
-	set iso_file="/opt/iso/linuxmint/21.2/linuxmint-21.2-cinnamon-64bit.iso"
+	set iso_file="/opt/iso/linuxmint/21.3/linuxmint-21.3-cinnamon-64bit.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -63,9 +63,9 @@ menuentry "Linux Mint 21.2 Victoria / Cinnamon" --class LinuxMint {
 
 
 ``` sh
-menuentry "Linux Mint 21.2 Victoria / Mate" --class LinuxMint {
+menuentry "Linux Mint 21.3 Virginia / Mate" --class LinuxMint {
 	set gfxpayload=keep
-	set iso_file="/opt/iso/linuxmint/21.2/linuxmint-21.2-mate-64bit.iso"
+	set iso_file="/opt/iso/linuxmint/21.3/linuxmint-21.3-mate-64bit.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
@@ -81,9 +81,9 @@ menuentry "Linux Mint 21.2 Victoria / Mate" --class LinuxMint {
 
 
 ``` sh
-menuentry "Linux Mint 21.2 Victoria / Xfce" --class LinuxMint {
+menuentry "Linux Mint 21.3 Virginia / Xfce" --class LinuxMint {
 	set gfxpayload=keep
-	set iso_file="/opt/iso/linuxmint/21.2/linuxmint-21.2-xfce-64bit.iso"
+	set iso_file="/opt/iso/linuxmint/21.3/linuxmint-21.3-xfce-64bit.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
 	set img_dev="/dev/disk/by-uuid/$iso_partition_uuid"
