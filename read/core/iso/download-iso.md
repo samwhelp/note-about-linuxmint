@@ -9,25 +9,27 @@ parent: ISO
 # Download ISO
 
 
-## Linux Mint 21.2 "Victoria"
+## Linux Mint 21.3 "Virginia"
+
+* Linux Mint / [Download](https://linuxmint.com/download.php)
 
 | Edition | Download | New Features | Release notes |
 | --- | --- | --- | --- |
-| Cinnamon Edition | [Download](https://www.linuxmint.com/edition.php?id=305) | [New Features](https://www.linuxmint.com/rel_victoria_cinnamon_whatsnew.php) | [Release notes](https://www.linuxmint.com/rel_victoria_cinnamon.php) |
-| MATE Edition | [Download](https://www.linuxmint.com/edition.php?id=306) | [New Features](https://www.linuxmint.com/rel_victoria_mate_whatsnew.php) | [Release notes](https://www.linuxmint.com/rel_victoria_mate.php) |
-| Xfce Edition | [Download](https://www.linuxmint.com/edition.php?id=307) | [New Features](https://www.linuxmint.com/rel_victoria_xfce_whatsnew.php) | [Release notes](https://www.linuxmint.com/rel_victoria_xfce.php) |
+| Cinnamon Edition | [Download](https://www.linuxmint.com/edition.php?id=311) | [New Features](https://www.linuxmint.com/rel_virginia_whatsnew.php) | [Release notes](https://www.linuxmint.com/rel_virginia_cinnamon.php) |
+| MATE Edition | [Download](https://www.linuxmint.com/edition.php?id=312) | [New Features](https://www.linuxmint.com/rel_virginia_whatsnew.php) | [Release notes](https://www.linuxmint.com/rel_virginia_mate.php) |
+| Xfce Edition | [Download](https://www.linuxmint.com/edition.php?id=312) | [New Features](https://www.linuxmint.com/rel_virginia_whatsnew.php) | [Release notes](https://www.linuxmint.com/rel_virginia_xfce.php) |
 
 
 ## 下載腳本
 
-* [下載腳本](https://github.com/samwhelp/linuxmint-adjustment/blob/main/core/iso/boot-iso/boot-iso-by-grub/demo-boot-linuxmint-21.2-iso/iso-download.sh)
+* [下載腳本](https://github.com/samwhelp/linuxmint-adjustment/tree/main/core/iso/boot-iso/boot-iso-by-grub/demo-boot-linuxmint-21.3-iso)
 
 
 ## 下載點
 
 > 可以到「Linux Mint / [Download](https://www.linuxmint.com/download.php)」找到下載點。
 
-> 例如可以找到「[http://free.nchc.org.tw/linuxmint/isos/stable/21.2/](http://free.nchc.org.tw/linuxmint/isos/stable/21.2/)」。
+> 例如可以找到「[http://free.nchc.org.tw/linuxmint/isos/stable/21.3/](http://free.nchc.org.tw/linuxmint/isos/stable/21.3/)」。
 
 
 ## 下載方式
@@ -37,9 +39,9 @@ parent: ISO
 先產生一個檔案「iso-download.txt」，內容如下
 
 ```
-http://free.nchc.org.tw/linuxmint/isos/stable/21.2/linuxmint-21.2-cinnamon-64bit.iso
-http://free.nchc.org.tw/linuxmint/isos/stable/21.2/linuxmint-21.2-mate-64bit.iso
-http://free.nchc.org.tw/linuxmint/isos/stable/21.2/linuxmint-21.2-xfce-64bit.iso
+http://free.nchc.org.tw/linuxmint/isos/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso
+http://free.nchc.org.tw/linuxmint/isos/stable/21.3/linuxmint-21.3-mate-64bit.iso
+http://free.nchc.org.tw/linuxmint/isos/stable/21.3/linuxmint-21.3-xfce-64bit.iso
 ```
 
 ### iso-download.sh
@@ -71,7 +73,7 @@ wget -c -i iso-download.txt
 執行
 
 ``` sh
-wget -c http://free.nchc.org.tw/linuxmint/isos/stable/21.2/sha256sum.txt
+wget -c http://free.nchc.org.tw/linuxmint/isos/stable/21.3/sha256sum.txt
 
 sha256sum -c sha256sum.txt
 ```
@@ -79,7 +81,7 @@ sha256sum -c sha256sum.txt
 會看到類似如下的內容
 
 ```
-linuxmint-21.2-cinnamon-64bit.iso: OK
-linuxmint-21.2-mate-64bit.iso: OK
-linuxmint-21.2-xfce-64bit.iso: OK
+linuxmint-21.3-cinnamon-64bit.iso: OK
+linuxmint-21.3-mate-64bit.iso: OK
+linuxmint-21.3-xfce-64bit.iso: OK
 ```
