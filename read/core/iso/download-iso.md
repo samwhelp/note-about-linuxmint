@@ -20,6 +20,11 @@ parent: ISO
 | Xfce Edition | [Download](https://www.linuxmint.com/edition.php?id=312) | [New Features](https://www.linuxmint.com/rel_virginia_whatsnew.php) | [Release notes](https://www.linuxmint.com/rel_virginia_xfce.php) |
 
 
+| EDGE Edition | Download | More Info |
+| --- | --- | --- |
+| Cinnamon Edition | [Download](https://www.linuxmint.com/edition.php?id=314) | [More Info](https://linuxmint-user-guide.readthedocs.io/en/latest/edge.html) |
+
+
 ## 下載腳本
 
 * [下載腳本](https://github.com/samwhelp/linuxmint-adjustment/tree/main/core/iso/boot-iso/boot-iso-by-grub/demo-boot-linuxmint-21.3-iso)
@@ -42,7 +47,10 @@ parent: ISO
 http://free.nchc.org.tw/linuxmint/isos/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso
 http://free.nchc.org.tw/linuxmint/isos/stable/21.3/linuxmint-21.3-mate-64bit.iso
 http://free.nchc.org.tw/linuxmint/isos/stable/21.3/linuxmint-21.3-xfce-64bit.iso
+
+http://free.nchc.org.tw/linuxmint/isos/stable/21.3/linuxmint-21.3-cinnamon-64bit-edge.iso
 ```
+
 
 ### iso-download.sh
 
