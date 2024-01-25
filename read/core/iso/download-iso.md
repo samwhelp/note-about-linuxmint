@@ -12,6 +12,7 @@ parent: ISO
 ## Linux Mint 21.3 "Virginia"
 
 * Linux Mint / [Download](https://linuxmint.com/download.php)
+* Linux Mint / [Releases](https://linuxmint.com/download_all.php)
 
 | Edition | Download | New Features | Release notes |
 | --- | --- | --- | --- |
@@ -32,7 +33,7 @@ parent: ISO
 
 ## 下載點
 
-> 可以到「Linux Mint / [Download](https://www.linuxmint.com/download.php)」找到下載點。
+> 可以到「Linux Mint / [Download](https://www.linuxmint.com/download.php)」或是「Linux Mint / [Releases](https://linuxmint.com/download_all.php)」找到下載點。
 
 > 例如可以找到「[http://free.nchc.org.tw/linuxmint/isos/stable/21.3/](http://free.nchc.org.tw/linuxmint/isos/stable/21.3/)」。
 
@@ -90,6 +91,7 @@ sha256sum -c sha256sum.txt
 
 ```
 linuxmint-21.3-cinnamon-64bit.iso: OK
+linuxmint-21.3-cinnamon-64bit-edge.iso: OK
 linuxmint-21.3-mate-64bit.iso: OK
 linuxmint-21.3-xfce-64bit.iso: OK
 ```
