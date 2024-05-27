@@ -9,9 +9,23 @@
 
 ## 主題
 
+* [LinuxMint Adjustment](#linuxmint-adjustment)
 * [ISO](#iso)
 * [桌面環境](#桌面環境)
 * [相關筆記](#相關筆記)
+
+
+
+
+## LinuxMint Adjustment
+
+| Link | GitHub |
+| ---- | ------ |
+| [LinuxMint Xfce 探索筆記](https://samwhelp.github.io/note-about-linuxmint-xfce/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-xfce) |
+| [LinuxMint Mate 探索筆記](https://samwhelp.github.io/note-about-linuxmint-mate/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-mate) |
+| [LinuxMint Cinnamon 探索筆記](https://samwhelp.github.io/note-about-linuxmint-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-cinnamon) |
+
+
 
 
 ## ISO
