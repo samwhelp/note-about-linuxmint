@@ -34,4 +34,7 @@ parent: 桌面環境
 
 ## 相關筆記
 
-* [Xfce 探索筆記](https://samwhelp.github.io/note-about-xfce/)
+| Link | GitHub |
+| ---- | ------ |
+| [Xfce 探索筆記](https://samwhelp.github.io/note-about-xfce/) | [GitHub](https://github.com/samwhelp/note-about-xfce) |
+| [LinuxMint Xfce 探索筆記](https://samwhelp.github.io/note-about-linuxmint-xfce/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-xfce) |

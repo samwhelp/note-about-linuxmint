@@ -7,6 +7,8 @@
 | [LinuxMint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
 
 
+
+
 ## 主題
 
 * [LinuxMint Adjustment](#linuxmint-adjustment)
@@ -46,6 +48,8 @@
 | [Boot ISO By GRUB](https://samwhelp.github.io/note-about-linuxmint/read/core/iso/boot-iso/boot-iso-by-grub.html) |
 
 
+
+
 ## 桌面環境
 
 | 桌面環境 |
@@ -55,10 +59,14 @@
 | Cinnamon |
 
 
+
+
 ## 相關筆記
 
-* [System Modeling](https://samwhelp.github.io/system-modeling/)
-* [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/)
+| Link | GitHub |
+| ---- | ------ |
+| [System Modeling](https://samwhelp.github.io/system-modeling/) | [GitHub](https://github.com/samwhelp/system-modeling) |
+| [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
 
 
 ## Samwhelp
