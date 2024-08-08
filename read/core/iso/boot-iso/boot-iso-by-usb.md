@@ -19,15 +19,17 @@ grand_parent: ISO
 
 ### 下載 ISO
 
-先參考「[Download ISO](https://samwhelp.github.io/note-about-linuxmint/read/core/iso/download-iso.html)」這篇提到的下載方式，下載「Debian 官方提供最新的ISO檔案」。
+先參考「[Download ISO](https://linuxmint.com/download.php)」這篇提到的下載連結，下載「LinuxMint 官方提供最新的ISO檔案」。
 
-舉例執行下面指令
+將「ISO檔案」放到「/opt/iso/linuxmint/22」這個路徑。
+
+舉例：執行下面指令
 
 ``` sh
-wget -c http://free.nchc.org.tw/linuxmint/isos/stable/21.2/linuxmint-21.2-cinnamon-64bit.iso
+wget -c http://free.nchc.org.tw/linuxmint/isos/stable/22/linuxmint-22-cinnamon-64bit.iso
 ```
 
-就會下載一個檔案「linuxmint-21.2-cinnamon-64bit.iso」。
+就會下載一個檔案「linuxmint-22-cinnamon-64bit.iso」。
 
 
 ### 尋找 Device 代號
@@ -47,13 +49,13 @@ lsblk
 接著執行下面指令，就會寫入「USB隨身碟」。
 
 ``` sh
-sudo dd if=./inuxmint-21.2-cinnamon-64bit.iso of=/dev/sdc bs=4M status=progress && sync
+sudo dd if=./inuxmint-22-cinnamon-64bit.iso of=/dev/sdc bs=4M status=progress && sync
 ```
 
 或是執行下面指令，就會寫入「USB隨身碟」。
 
 ``` sh
-sudo dd if=./inuxmint-21.2-cinnamon-64bit.iso of=/dev/sdc bs=4M status=progress conv=fsync oflag=direct
+sudo dd if=./inuxmint-22-cinnamon-64bit.iso of=/dev/sdc bs=4M status=progress conv=fsync oflag=direct
 ```
 
 接著重新開機，在「BIOS」選擇使用「該USB隨身碟」開機。
