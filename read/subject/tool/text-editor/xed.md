@@ -41,8 +41,8 @@ grand_parent: 工具
 
 | Ubuntu Package |
 | -------------- |
-| [Xed](https://packages.ubuntu.com/noble/Xed) |
+| [xed](https://packages.ubuntu.com/noble/xed) |
 
 ``` sh
-sudo apt-get install Xed
+sudo apt-get install xed
 ```
