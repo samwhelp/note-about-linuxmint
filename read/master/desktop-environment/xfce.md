@@ -19,17 +19,17 @@ parent: 桌面環境
 
 ## 微調腳本
 
-*  [Xfce 微調腳本](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype/de/xfce)
+*  [Xfce 微調腳本](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype-legacy/de/xfce)
 
 | Full |
 | --- |
-| [xfce-config](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype/de/xfce/full/xfce-config) |
+| [xfce-config](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype-legacy/de/xfce/full/xfce-config) |
 
 | Part |
 | --- |
-| [xfce-config-main](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype/de/xfce/part/xfce-config-main) |
-| [xfce-favorite-apps](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype/de/xfce/part/xfce-favorite-apps) |
-| [xfce-autostart-plank](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype/de/xfce/part/xfce-autostart-plank) |
+| [xfce-config-main](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype-legacy/de/xfce/part/xfce-config-main) |
+| [xfce-favorite-apps](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype-legacy/de/xfce/part/xfce-favorite-apps) |
+| [xfce-autostart-plank](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype-legacy/de/xfce/part/xfce-autostart-plank) |
 
 
 ## 相關筆記
