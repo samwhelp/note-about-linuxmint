@@ -9,16 +9,18 @@ parent: ISO
 # Download ISO
 
 
-## Linux Mint 22 "Wilma"
+
+
+## Linux Mint 22.1 "Xia"
 
 * Linux Mint / [Download](https://linuxmint.com/download.php)
 * Linux Mint / [Releases](https://linuxmint.com/download_all.php)
 
 | Edition | Download | New Features | Release notes |
 | --- | --- | --- | --- |
-| Cinnamon Edition | [Download](https://www.linuxmint.com/edition.php?id=316) | [New Features](https://linuxmint.com/rel_wilma_whatsnew.php) | [Release notes](https://linuxmint.com/rel_wilma.php) |
-| MATE Edition | [Download](https://www.linuxmint.com/edition.php?id=318) | [New Features](https://linuxmint.com/rel_wilma_whatsnew.php) | [Release notes](https://linuxmint.com/rel_wilma.php) |
-| Xfce Edition | [Download](https://www.linuxmint.com/edition.php?id=317) | [New Features](https://linuxmint.com/rel_wilma_whatsnew.php) | [Release notes](https://linuxmint.com/rel_wilma.php) |
+| Cinnamon Edition | [Download](https://www.linuxmint.com/edition.php?id=319) | [New Features](https://linuxmint.com/rel_xia_whatsnew.php) | [Release notes](https://linuxmint.com/rel_xia.php) |
+| MATE Edition | [Download](https://www.linuxmint.com/edition.php?id=321) | [New Features](https://linuxmint.com/rel_xia_whatsnew.php) | [Release notes](https://linuxmint.com/rel_xia.php) |
+| Xfce Edition | [Download](https://www.linuxmint.com/edition.php?id=320) | [New Features](https://linuxmint.com/rel_xia_whatsnew.php) | [Release notes](https://linuxmint.com/rel_xia.php) |
 
 
 | EDGE Edition | Download | More Info |
@@ -26,30 +28,38 @@ parent: ISO
 | Cinnamon Edition | [Download](https://www.linuxmint.com/edition.php?id=314) | [More Info](https://linuxmint-user-guide.readthedocs.io/en/latest/edge.html) |
 
 
+
+
 ## 下載腳本
 
-* [下載腳本](https://github.com/samwhelp/linuxmint-adjustment/tree/main/core/iso/boot-iso/boot-iso-by-grub/demo-boot-linuxmint-22-iso)
+* [下載腳本](https://github.com/samwhelp/linuxmint-adjustment/tree/main/core/iso/boot-iso/boot-iso-by-grub/demo-boot-linuxmint-22.1-iso)
+
+
 
 
 ## 下載點
 
 > 可以到「Linux Mint / [Download](https://www.linuxmint.com/download.php)」或是「Linux Mint / [Releases](https://linuxmint.com/download_all.php)」找到下載點。
 
-> 例如可以找到「[http://free.nchc.org.tw/linuxmint/isos/stable/22/](http://free.nchc.org.tw/linuxmint/isos/stable/22/)」。
+> 例如可以找到「[https://mirrors.kernel.org/linuxmint/stable/22.1/](https://mirrors.kernel.org/linuxmint/stable/22.1/)」。
+
+
 
 
 ## 下載方式
+
 
 ### iso-download.txt
 
 先產生一個檔案「iso-download.txt」，內容如下
 
 ```
-http://free.nchc.org.tw/linuxmint/isos/stable/22/linuxmint-22-cinnamon-64bit.iso
-http://free.nchc.org.tw/linuxmint/isos/stable/22/linuxmint-22-mate-64bit.iso
-http://free.nchc.org.tw/linuxmint/isos/stable/22/linuxmint-22-xfce-64bit.iso
+https://mirrors.kernel.org/linuxmint/stable/22.1/linuxmint-22.1-cinnamon-64bit.iso
+https://mirrors.kernel.org/linuxmint/stable/22.1/linuxmint-22.1-mate-64bit.iso
+https://mirrors.kernel.org/linuxmint/stable/22.1/linuxmint-22.1-xfce-64bit.iso
 
-http://free.nchc.org.tw/linuxmint/isos/stable/22/linuxmint-22-cinnamon-64bit-edge.iso
+https://mirrors.edge.kernel.org/linuxmint/stable/22.1/sha256sum.txt
+https://mirrors.edge.kernel.org/linuxmint/stable/22.1/sha256sum.txt.gpg
 ```
 
 
@@ -64,6 +74,8 @@ wget -c -i iso-download.txt
 > 關於「-c」指的是續傳
 
 > 關於「-i iso-download.txt」，指的是下載「iso-download.txt」裡面所列的檔案
+
+
 
 
 ## Boot ISO
@@ -82,7 +94,7 @@ wget -c -i iso-download.txt
 執行
 
 ``` sh
-wget -c http://free.nchc.org.tw/linuxmint/isos/stable/22/sha256sum.txt
+wget -c https://mirrors.kernel.org/linuxmint/stable/22.1/sha256sum.txt
 
 sha256sum -c sha256sum.txt
 ```
@@ -90,8 +102,7 @@ sha256sum -c sha256sum.txt
 會看到類似如下的內容
 
 ```
-linuxmint-22-cinnamon-64bit.iso: OK
-linuxmint-22-cinnamon-64bit-edge.iso: OK
-linuxmint-22-mate-64bit.iso: OK
-linuxmint-22-xfce-64bit.iso: OK
+linuxmint-22.1-cinnamon-64bit.iso: OK
+linuxmint-22.1-mate-64bit.iso: OK
+linuxmint-22.1-xfce-64bit.iso: OK
 ```
