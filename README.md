@@ -14,6 +14,7 @@
 * [LinuxMint Adjustment](#linuxmint-adjustment)
 * [ISO](#iso)
 * [桌面環境](#桌面環境)
+* [工具](https://samwhelp.github.io/note-about-linuxmint/read/subject/tool.html)
 * [相關筆記](#相關筆記)
 
 
