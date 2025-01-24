@@ -13,7 +13,6 @@
 
 * [LinuxMint Adjustment](#linuxmint-adjustment)
 * [ISO](#iso)
-* [桌面環境](#桌面環境)
 * [工具](https://samwhelp.github.io/note-about-linuxmint/read/subject/tool.html)
 * [相關筆記](#相關筆記)
 
@@ -51,23 +50,14 @@
 
 
 
-## 桌面環境
-
-| 桌面環境 |
-| --- |
-| [Xfce](https://samwhelp.github.io/note-about-linuxmint/read/master/desktop-environment/xfce.html) |
-| Mate |
-| Cinnamon |
-
-
-
-
 ## 相關筆記
 
 | Link | GitHub |
 | ---- | ------ |
 | [System Modeling](https://samwhelp.github.io/system-modeling/) | [GitHub](https://github.com/samwhelp/system-modeling) |
 | [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
+
+
 
 
 ## Samwhelp
