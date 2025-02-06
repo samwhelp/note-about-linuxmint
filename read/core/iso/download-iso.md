@@ -16,11 +16,11 @@ parent: ISO
 * Linux Mint / [Download](https://linuxmint.com/download.php)
 * Linux Mint / [Releases](https://linuxmint.com/download_all.php)
 
-| Edition | Download | New Features | Release notes |
-| --- | --- | --- | --- |
-| Cinnamon Edition | [Download](https://www.linuxmint.com/edition.php?id=319) | [New Features](https://linuxmint.com/rel_xia_whatsnew.php) | [Release notes](https://linuxmint.com/rel_xia.php) |
-| MATE Edition | [Download](https://www.linuxmint.com/edition.php?id=321) | [New Features](https://linuxmint.com/rel_xia_whatsnew.php) | [Release notes](https://linuxmint.com/rel_xia.php) |
-| Xfce Edition | [Download](https://www.linuxmint.com/edition.php?id=320) | [New Features](https://linuxmint.com/rel_xia_whatsnew.php) | [Release notes](https://linuxmint.com/rel_xia.php) |
+| Edition | Download | New Features | Release notes | 探索筆記 |
+| ------- | -------- | ------------ | ------------- |
+| Cinnamon Edition | [Download](https://www.linuxmint.com/edition.php?id=319) | [New Features](https://linuxmint.com/rel_xia_whatsnew.php) | [Release notes](https://linuxmint.com/rel_xia.php) | [探索筆記](https://samwhelp.github.io/note-about-linuxmint-cinnamon/) |
+| MATE Edition | [Download](https://www.linuxmint.com/edition.php?id=321) | [New Features](https://linuxmint.com/rel_xia_whatsnew.php) | [Release notes](https://linuxmint.com/rel_xia.php) | [探索筆記](https://samwhelp.github.io/note-about-linuxmint-mate/) |
+| Xfce Edition | [Download](https://www.linuxmint.com/edition.php?id=320) | [New Features](https://linuxmint.com/rel_xia_whatsnew.php) | [Release notes](https://linuxmint.com/rel_xia.php) | [探索筆記](https://samwhelp.github.io/note-about-linuxmint-xfce/) |
 
 
 | EDGE Edition | Download | More Info |
