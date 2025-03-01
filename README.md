@@ -11,7 +11,7 @@
 
 ## 主題
 
-* [LinuxMint Adjustment](#linuxmint-adjustment)
+* [LinuxMint Respin](#linuxmint-respin)
 * [微調腳本](#微調腳本)
 * [ISO](#iso)
 * [工具](https://samwhelp.github.io/note-about-linuxmint/read/subject/tool.html)
@@ -20,7 +20,7 @@
 
 
 
-## LinuxMint Adjustment
+## LinuxMint Respin
 
 | Link | GitHub |
 | ---- | ------ |
