@@ -12,6 +12,7 @@
 ## 主題
 
 * [LinuxMint Adjustment](#linuxmint-adjustment)
+* [微調腳本](#微調腳本)
 * [ISO](#iso)
 * [工具](https://samwhelp.github.io/note-about-linuxmint/read/subject/tool.html)
 * [相關筆記](#相關筆記)
@@ -26,6 +27,16 @@
 | [LinuxMint Cinnamon 探索筆記](https://samwhelp.github.io/note-about-linuxmint-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-cinnamon) |
 | [LinuxMint Mate 探索筆記](https://samwhelp.github.io/note-about-linuxmint-mate/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-mate) |
 | [LinuxMint Xfce 探索筆記](https://samwhelp.github.io/note-about-linuxmint-xfce/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-xfce) |
+
+
+
+
+## 微調腳本
+
+| 微調腳本 |
+| ------- |
+| [Linux Mint Config](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype/main) |
+| [Tool Config](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype/main/tool-config/part) |
 
 
 
