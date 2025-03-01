@@ -14,6 +14,7 @@
 * [LinuxMint Respin](#linuxmint-respin)
 * [微調腳本](#微調腳本)
 * [ISO](#iso)
+* [佈景主題](#佈景主題)
 * [工具](https://samwhelp.github.io/note-about-linuxmint/read/subject/tool.html)
 * [相關筆記](#相關筆記)
 
@@ -57,6 +58,15 @@
 | [Boot ISO By USB](https://samwhelp.github.io/note-about-linuxmint/read/core/iso/boot-iso/boot-iso-by-usb.html) |
 | [Boot ISO By Ventoy](https://samwhelp.github.io/note-about-linuxmint/read/core/iso/boot-iso/boot-iso-by-ventoy.html) |
 | [Boot ISO By GRUB](https://samwhelp.github.io/note-about-linuxmint/read/core/iso/boot-iso/boot-iso-by-grub.html) |
+
+
+
+
+## 佈景主題
+
+| 佈景主題 |
+| -------- |
+| [設定採用「GURB 佈景主題」](https://samwhelp.github.io/note-about-linuxmint/read/subject/grub.html) |
 
 
 
