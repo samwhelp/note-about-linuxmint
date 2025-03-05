@@ -14,9 +14,9 @@
 * [LinuxMint Respin](#linuxmint-respin)
 * [微調腳本](#微調腳本)
 * [ISO](#iso)
-* [佈景主題](#佈景主題)
 * [字型](#字型)
 * [輸入法](#輸入法)
+* [佈景主題](#佈景主題)
 * [工具](https://samwhelp.github.io/note-about-linuxmint/read/subject/tool.html)
 * [相關筆記](#相關筆記)
 
@@ -64,15 +64,6 @@
 
 
 
-## 佈景主題
-
-| 佈景主題 |
-| -------- |
-| [設定採用「GURB 佈景主題」](https://samwhelp.github.io/note-about-linuxmint/read/subject/grub.html) |
-
-
-
-
 ## 字型
 
 | 字型設定 | 微調腳本 |
@@ -93,6 +84,15 @@
 
 
 
+## 佈景主題
+
+| 佈景主題 |
+| -------- |
+| [設定採用「GURB 佈景主題」](https://samwhelp.github.io/note-about-linuxmint/read/subject/grub.html) |
+
+
+
+
 ## 相關筆記
 
 | Link | GitHub |
@@ -100,6 +100,9 @@
 | [System Modeling](https://samwhelp.github.io/system-modeling/) | [GitHub](https://github.com/samwhelp/system-modeling) |
 | [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
 | [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
+| [Manjaro 探索筆記](https://samwhelp.github.io/note-about-manjaro/) | [GitHub](https://github.com/samwhelp/note-about-manjaro) |
+| [Archlinux 探索筆記](https://samwhelp.github.io/note-about-archlinux/) | [GitHub](https://github.com/samwhelp/note-about-archlinux) |
+| [Fedora 探索筆記](https://samwhelp.github.io/note-about-fedora/) | [GitHub](https://github.com/samwhelp/note-about-fedora) |
 
 
 
