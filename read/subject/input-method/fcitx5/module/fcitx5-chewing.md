@@ -9,7 +9,16 @@ grand_parent: 輸入法
 
 # 如何安裝「新酷音輸入法」
 
-> 如何安裝「[fcitx5-chewing](https://packages.ubuntu.com/noble/fcitx5-chewing)」
+
+
+
+## 主題
+
+* [微調腳本](#微調腳本)
+* [指令安裝](#指令安裝)
+* [切換輸入法架構](#切換輸入法架構)
+* [加入輸入法](#加入輸入法)
+* [備註](#備註)
 
 
 
@@ -19,6 +28,8 @@ grand_parent: 輸入法
 | 微調腳本 | 中文輸入法 |
 | -------- | ---------- |
 | [fcitx5-chewing 安裝設定腳本](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype/main/im-config/fcitx5/fcitx5-chewing) | 新酷音輸入法 |
+
+
 
 
 ## 指令安裝
@@ -91,11 +102,15 @@ im-config -n fcitx5
 > 重新登出，然後登入，就會生效
 
 
+
+
 ## 加入輸入法
 
 透過「圖形操作介面程式(`fcitx5-configtool`)」，
 
 加入「新酷音輸入法(`fcitx5-chewing`)」這個「輸入法」。
+
+這個設定會被儲存在「[~/.config/fcitx5/profile](https://github.com/samwhelp/linuxmint-adjustment/blob/main/prototype/main/im-config/fcitx5/fcitx5-chewing/asset/overlay/etc/skel/.config/fcitx5/profile#L15-L19)」這個檔案。
 
 
 
