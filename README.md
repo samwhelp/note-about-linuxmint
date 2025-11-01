@@ -34,6 +34,14 @@
 
 
 
+| Link | GitHub |
+| ---- | ------ |
+| [Lmde 探索筆記](https://samwhelp.github.io/note-about-lmde/) | [GitHub](https://github.com/samwhelp/note-about-lmde) |
+| [Lmde Cinnamon 探索筆記](https://samwhelp.github.io/note-about-lmde-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-lmde-cinnamon) |
+
+
+
+
 ## 微調腳本
 
 | 微調腳本 |
