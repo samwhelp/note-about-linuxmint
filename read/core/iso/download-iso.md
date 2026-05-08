@@ -28,6 +28,9 @@ parent: ISO
 | Cinnamon Edition | [Download](https://www.linuxmint.com/edition.php?id=314) | [More Info](https://linuxmint-user-guide.readthedocs.io/en/latest/edge.html) |
 
 
+* [HWE ISOs](https://www.linuxmint.com/hwe.php)
+
+
 
 
 ## 下載腳本
