@@ -11,7 +11,7 @@ parent: ISO
 
 
 
-## Linux Mint 22.2 "Zara"
+## Linux Mint 22.3 "Zena"
 
 * Linux Mint / [Download](https://linuxmint.com/download.php)
 * Linux Mint / [Releases](https://linuxmint.com/download_all.php)
@@ -32,7 +32,7 @@ parent: ISO
 
 ## 下載腳本
 
-* [下載腳本](https://github.com/samwhelp/linuxmint-adjustment/tree/main/core/iso/boot-iso/boot-iso-via-grub/demo-boot-linuxmint-22.2-iso)
+* [下載腳本](https://github.com/samwhelp/linuxmint-adjustment/tree/main/core/iso/boot-iso/boot-iso-via-grub/demo-boot-linuxmint-22.3-iso)
 
 
 
@@ -41,7 +41,7 @@ parent: ISO
 
 > 可以到「Linux Mint / [Download](https://www.linuxmint.com/download.php)」或是「Linux Mint / [Releases](https://linuxmint.com/download_all.php)」找到下載點。
 
-> 例如可以找到「[https://mirrors.kernel.org/linuxmint/stable/22.2/](https://mirrors.kernel.org/linuxmint/stable/22.2/)」。
+> 例如可以找到「[https://mirrors.kernel.org/linuxmint/stable/22.3/](https://mirrors.kernel.org/linuxmint/stable/22.3/)」。
 
 
 
@@ -54,12 +54,12 @@ parent: ISO
 先產生一個檔案「iso-download.txt」，內容如下
 
 ```
-https://mirrors.kernel.org/linuxmint/stable/22.2/linuxmint-22.2-cinnamon-64bit.iso
-https://mirrors.kernel.org/linuxmint/stable/22.2/linuxmint-22.2-mate-64bit.iso
-https://mirrors.kernel.org/linuxmint/stable/22.2/linuxmint-22.2-xfce-64bit.iso
+https://mirrors.kernel.org/linuxmint/stable/22.3/linuxmint-22.3-cinnamon-64bit.iso
+https://mirrors.kernel.org/linuxmint/stable/22.3/linuxmint-22.3-mate-64bit.iso
+https://mirrors.kernel.org/linuxmint/stable/22.3/linuxmint-22.3-xfce-64bit.iso
 
-https://mirrors.kernel.org/linuxmint/stable/22.2/sha256sum.txt
-https://mirrors.kernel.org/linuxmint/stable/22.2/sha256sum.txt.gpg
+https://mirrors.kernel.org/linuxmint/stable/22.3/sha256sum.txt
+https://mirrors.kernel.org/linuxmint/stable/22.3/sha256sum.txt.gpg
 ```
 
 
@@ -94,7 +94,7 @@ wget -c -i iso-download.txt
 執行
 
 ``` sh
-wget -c https://mirrors.kernel.org/linuxmint/stable/22.2/sha256sum.txt
+wget -c https://mirrors.kernel.org/linuxmint/stable/22.3/sha256sum.txt
 
 sha256sum -c sha256sum.txt
 ```
@@ -102,7 +102,7 @@ sha256sum -c sha256sum.txt
 會看到類似如下的內容
 
 ```
-linuxmint-22.2-cinnamon-64bit.iso: OK
-linuxmint-22.2-mate-64bit.iso: OK
-linuxmint-22.2-xfce-64bit.iso: OK
+linuxmint-22.3-cinnamon-64bit.iso: OK
+linuxmint-22.3-mate-64bit.iso: OK
+linuxmint-22.3-xfce-64bit.iso: OK
 ```
