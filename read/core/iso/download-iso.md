@@ -18,9 +18,9 @@ parent: ISO
 
 | Edition | Download | New Features | Release notes | 探索筆記 |
 | ------- | -------- | ------------ | ------------- |
-| Cinnamon Edition | [Download](https://www.linuxmint.com/edition.php?id=322) | [New Features](https://linuxmint.com/rel_zara_whatsnew.php) | [Release notes](https://linuxmint.com/rel_zara.php) | [探索筆記](https://samwhelp.github.io/note-about-linuxmint-cinnamon/) |
-| MATE Edition | [Download](https://www.linuxmint.com/edition.php?id=324) | [New Features](https://linuxmint.com/rel_zara_whatsnew.php) | [Release notes](https://linuxmint.com/rel_zara.php) | [探索筆記](https://samwhelp.github.io/note-about-linuxmint-mate/) |
-| Xfce Edition | [Download](https://www.linuxmint.com/edition.php?id=323) | [New Features](https://linuxmint.com/rel_zara_whatsnew.php) | [Release notes](https://linuxmint.com/rel_zara.php) | [探索筆記](https://samwhelp.github.io/note-about-linuxmint-xfce/) |
+| Cinnamon Edition | [Download](https://linuxmint.com/edition.php?id=326) | [New Features](https://linuxmint.com/rel_zena_whatsnew.php) | [Release notes](https://linuxmint.com/rel_zena.php) | [探索筆記](https://samwhelp.github.io/note-about-linuxmint-cinnamon/) |
+| MATE Edition | [Download](https://www.linuxmint.com/edition.php?id=328) | [New Features](https://linuxmint.com/rel_zena_whatsnew.php) | [Release notes](https://linuxmint.com/rel_zena.php) | [探索筆記](https://samwhelp.github.io/note-about-linuxmint-mate/) |
+| Xfce Edition | [Download](https://www.linuxmint.com/edition.php?id=327) | [New Features](https://linuxmint.com/rel_zena_whatsnew.php) | [Release notes](https://linuxmint.com/rel_zena.php) | [探索筆記](https://samwhelp.github.io/note-about-linuxmint-xfce/) |
 
 
 | EDGE Edition | Download | More Info |
