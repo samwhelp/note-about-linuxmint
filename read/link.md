@@ -4,7 +4,10 @@ nav_order: 9000
 has_children: true
 ---
 
+
 # 連結
+
+
 
 
 ## Linux Mint
@@ -15,6 +18,10 @@ has_children: true
 * [Linux Mint User Guide](https://linuxmint-user-guide.readthedocs.io/en/latest/)
 * [Linux Mint Developer Guide](https://linuxmint-developer-guide.readthedocs.io/en/latest/index.html)
 * [https://community.linuxmint.com/tutorial/welcome](https://community.linuxmint.com/tutorial/welcome)
+* [Linux Mint Blog](https://blog.linuxmint.com/)
+* GitHub / [linuxmint](https://github.com/linuxmint)
+
+
 
 
 ## Just the Docs
