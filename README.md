@@ -5,6 +5,7 @@
 | ---- | ------ |
 | [LinuxMint Adjustment](https://samwhelp.github.io/linuxmint-adjustment/) | [GitHub](https://github.com/samwhelp/linuxmint-adjustment) |
 | [LinuxMint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
+| [LinuxMint ISO Builder 探索筆記](https://samwhelp.github.io/note-about-linuxmint-iso-builder/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-iso-builder) |
 
 
 
